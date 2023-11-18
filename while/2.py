@@ -6,4 +6,6 @@ while a!=0:
     if max<number:
         max=number
     print(number)
-print(f"максимальна :  {number}")
+    a=(a-number)/10
+
+print(f"максимальна :  {max}")
